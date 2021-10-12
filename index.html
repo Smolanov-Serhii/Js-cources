@@ -18,7 +18,7 @@
     <div class="modal__item">
       <label>
         <span>Как называется Ваш проект:</span>
-        <input type="text" name="name" id="project-name">
+        <input type="text" name="name" class="project-name">
       </label>
     </div>
     <div class="modal__item modal__radio">
@@ -60,7 +60,7 @@
         <input type="text" name="service1" id="service1">
       </label>
       <label>
-        <span>Стоимость услуши 1</span>
+        <span>Стоимость услуги 1</span>
         <input type="number" name="service-cost1" id="service-cost1" value="0">
       </label>
     </div>
@@ -70,7 +70,7 @@
         <input type="text" name="service2" id="service2">
       </label>
       <label>
-        <span>Стоимость услуши 2</span>
+        <span>Стоимость услуги 2</span>
         <input type="number" name="service-cost2" id="service-cost2" value="0">
       </label>
     </div>
@@ -82,17 +82,17 @@
     </div>
     <div class="modal__total-level">
       <span class="name">
-        Сложность страниц
+        Сложность страниц:
       </span>
-      <span class="value">
+      <span class="value" id="modal__total-level">
 
       </span>
     </div>
     <div class="modal__total-cost">
       <span class="name">
-        Стоимость
+        Стоимость:
       </span>
-      <span class="value">
+      <span class="value modal__total-cost-value">
 
       </span>
     </div>
@@ -106,7 +106,7 @@
     </div>
     <div class="modal__total-back">
       <span class="name">
-        Откат
+        Откат:
       </span>
       <span class="value">
 
@@ -114,7 +114,7 @@
     </div>
     <div class="modal__total-sale">
       <span class="name">
-        Возможна скидка
+        Возможна скидка:
       </span>
       <span class="value">
 
@@ -122,7 +122,7 @@
     </div>
     <div class="modal__total-pay">
       <span class="name">
-        Стоимость без скидки
+        Стоимость без скидки:
       </span>
       <span class="value">
 
